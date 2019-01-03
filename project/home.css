@@ -1,0 +1,40 @@
+<html>
+<style>
+/* unvisited link */
+a:link {
+  color: blue;
+}
+/*visited link */
+a:visited {
+  color: green;
+}
+/* mouse over link */
+a:hover {
+  color: red;
+}
+/* selected link */
+a:active {
+  color: hotpink
+}
+body {
+  background-image: url("track and field.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-color: #cccccc;
+}
+h1 {
+  color: red;
+}
+* {box-sizing:border-box}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  color: white;
+  text-align :left;
+}
+</style>
+</html>
